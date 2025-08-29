@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Full Stack Development Portfolio</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="portfolio-container">
+      <div class="header">
+        <h1><strong>My Full Stack Development Portfolio</strong></h1>
+        <p>
+          <strong
+            >BSc (Hons) IT Student - Learning Full Stack Development</strong
+          >
+        </p>
+      </div>
+      <div class="section">
+        <h2>1. What is Full Stack Development?</h2>
+        <p>
+          Full Stack Development means building both the front end, which is
+          what users see and back end, which is what happens behind the sences
+          like server and database of websites.
+        </p>
+
+        <div class="explanation">
+          <h4>For example a restaurant:</h4>
+          <ul>
+            <li>
+              <strong>Front End:</strong> Area where customers sit and eat
+              (HTML, CSS, JavaScript)
+            </li>
+            <li>
+              <strong>Back End:</strong> Kitchen where food is prepared
+              (servers, databases)
+            </li>
+            <li>
+              Full Stack Developer: Someone who can design and manage servers,
+              databases
+            </li>
+          </ul>
+        </div>
+
+        <div class="demo-box">
+          <h5>This Portfolio Demonstrates:</h5>
+          <div class="row">
+            <div class="col-md-6">
+              <h6>Frontend Skills:</h6>
+              <ul>
+                <li>HTML structure</li>
+                <li>CSS styling</li>
+                <li>Bootstrap framework</li>
+                <li>JavaScript interactivity</li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <h6>Technologies Used:</h6>
+              <ul>
+                <li>HTML5 for content</li>
+                <li>CSS3 for design</li>
+                <li>Bootstrap 5 for layout</li>
+                <li>Vanilla JavaScript for functions</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <h2>2. HTML (HyperText Markup Language)</h2>
+        <p>
+          HTML (Hyper Text Markup Language) is the skeleton of web pages. It
+          uses tags to shape the structure of the content. It’s not a
+          programming language and it doesn’t handle logic or make things happen
+          but it gives your content shape like texts, headings, images, links,
+          and more.
+        </p>
+
+        <div class="code-example">
+          <h5>Basic HTML Structure that I Used:</h5>
+          <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;title&gt;My Portfolio&lt;/title&gt;
+    &lt;meta charset="UTF-8"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;My Heading&lt;/h1&gt;
+    &lt;p&gt;My paragraph text&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</pre
+          >
+        </div>
+
+        <div class="explanation">
+          <h5>HTML Tags Explained:</h5>
+          <ul>
+            <li><code>&lt;html&gt;</code> - Contains everything</li>
+            <li><code>&lt;head&gt;</code> - Information about the page</li>
+            <li><code>&lt;body&gt;</code> - The visible content</li>
+            <li><code>&lt;h1&gt;</code> - Main heading (Biggest)</li>
+            <li><code>&lt;p&gt;</code> - Paragraph text</li>
+            <li><code>&lt;div&gt;</code> - Container for grouping elements</li>
+          </ul>
+        </div>
+
+        <div class="demo-box">
+          <h5>HTML Demo - Different Headings:</h5>
+          <h1>This is H1 (biggest)</h1>
+          <h2>This is H2</h2>
+          <h3>This is H3</h3>
+          <h4>This is H4</h4>
+          <h5>This is H5</h5>
+          <h6>This is H6 (smallest)</h6>
+          <p>
+            This is a regular paragraph with some <strong>bold text</strong> and
+            <em>italic text</em>.
+          </p>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>3. CSS (Cascading Style Sheets)</h2>
+        <p>
+          CSS (Cascading Style Sheets) is a style sheet language which makes
+          websites look good by controlling colors, fonts, layout, and
+          animations. Basically, CSS designs the appearance of a site after HTML
+          defines its structure.
+        </p>
+
+        <div class="code-example">
+          <h5>CSS that I Used for This Page:</h5>
+          <pre>
+body {
+    font-family: 'Arial', sans-serif;
+    background: #1a1a1a;
+}
+
+.header {
+    background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+    color: white;
+    padding: 40px;
+    text-align: center;
+    border-radius: 15px;
+}</pre
+          >
+        </div>
+
+        <div class="explanation">
+          <h5>CSS Properties Explained:</h5>
+          <ul>
+            <li><code>background:</code> - Sets background color or image</li>
+            <li><code>color:</code> - Changes text color</li>
+            <li><code>padding:</code> - Space inside an element</li>
+            <li><code>margin:</code> - Space outside an element</li>
+            <li><code>border-radius:</code> - Makes rounded corners</li>
+            <li><code>font-family:</code> - Changes the font</li>
+          </ul>
+        </div>
+
+        <div class="demo-box">
+          <h5>CSS Demo - Hover Effect:</h5>
+          <div class="color-changer" id="colorBox">
+            <p>Hover to see CSS in action!</p>
+            <p>I changed colors using CSS transitions</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>4. Bootstrap Framework</h2>
+        <p>
+          Bootstrap is a CSS framework that provides pre made styles and
+          components to build websites faster. It gives you pre made HTML, CSS,
+          and JavaScript pieces like buttons, forms, grids, etc.
+        </p>
+
+        <div class="code-example">
+          <h5>Bootstrap classes that I have used:</h5>
+          <pre>
+&lt;div class="container"&gt;
+    &lt;div class="row"&gt;
+        &lt;div class="col-md-6"&gt;Left Column&lt;/div&gt;
+        &lt;div class="col-md-6"&gt;Right Column&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;button class="btn btn-primary"&gt;Bootstrap Button&lt;/button&gt;</pre
+          >
+        </div>
+
+        <div class="explanation">
+          <h5>Bootstrap Classes Explained:</h5>
+          <ul>
+            <li>
+              <code>.container</code> - Centers content with proper spacing
+            </li>
+            <li><code>.row</code> - Creates a horizontal row</li>
+            <li>
+              <code>.col-md-6</code> - Takes up 6/12 columns (half width) on
+              medium+ screens
+            </li>
+            <li><code>.btn</code> - Makes a nice button</li>
+            <li><code>.btn-primary</code> - Blue button style</li>
+          </ul>
+        </div>
+
+        <div class="demo-box">
+          <h5>Bootstrap Demo - Responsive Grid:</h5>
+          <div class="container-fluid">
+            <div class="row">
+              <div
+                class="col-md-4"
+                style="background: #1e3a8a; padding: 15px; margin-bottom: 10px"
+              >
+                <h6>Column 1</h6>
+                <p>This takes 4/12 columns (1/3 width)</p>
+              </div>
+              <div
+                class="col-md-4"
+                style="background: #581c87; padding: 15px; margin-bottom: 10px"
+              >
+                <h6>Column 2</h6>
+                <p>This also takes 4/12 columns</p>
+              </div>
+              <div
+                class="col-md-4"
+                style="background: #166534; padding: 15px; margin-bottom: 10px"
+              >
+                <h6>Column 3</h6>
+                <p>This also takes 4/12 columns</p>
+              </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-12">
+                <button class="btn btn-primary me-2">Primary</button>
+                <button class="btn btn-success me-2">Success</button>
+                <button class="btn btn-warning me-2">Warning</button>
+                <button class="btn btn-danger">Danger</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>5. JavaScript - Making Websites Interactive</h2>
+        <p>
+          JavaScript makes websites interactive, it is a programming language
+          that brings web pages to life by making them interactive and dynamic.
+          It can respond to user actions and change content dynamically.
+        </p>
+
+        <div class="code-example">
+          <h5>JavaScript Functions that I have wrote:</h5>
+          <pre>
+function changeBackgroundColor() {
+    const colors = ['#1a1a1a', '#2c2c2c', '#3d3d3d'];
+    const randomColor = colors[Math.floor(Math.random() * colors.length)];
+    document.body.style.backgroundColor = randomColor;
+}
+
+function showAlert() {
+    alert('JavaScript in action!');
+}</pre
+          >
+        </div>
+
+        <div class="explanation">
+          <h5>JavaScript Concepts Explained:</h5>
+          <ul>
+            <li><code>function</code> - A block of code that does something</li>
+            <li><code>document</code> - Represents the webpage</li>
+            <li><code>getElementById()</code> - Finds an element by its ID</li>
+            <li>
+              <code>addEventListener()</code> - Waits for user actions (clicks,
+              etc.)
+            </li>
+            <li><code>Math.random()</code> - Generates random numbers</li>
+          </ul>
+        </div>
+
+        <div class="demo-box">
+          <h5>JavaScript Demo:</h5>
+          <div class="text-center">
+            <button class="interactive-button" onclick="showAlert()">
+              Click for Alert!
+            </button>
+            <button class="interactive-button" onclick="changePageColor()">
+              Change Page Color!
+            </button>
+            <button class="interactive-button" onclick="showTime()">
+              Show Current Time
+            </button>
+          </div>
+
+          <div class="form-demo mt-4">
+            <h5>Calculator Demo:</h5>
+            <div class="row">
+              <div class="col-md-6">
+                <input
+                  type="number"
+                  class="form-control mb-2"
+                  id="num1"
+                  placeholder="Enter first number"
+                />
+                <input
+                  type="number"
+                  class="form-control mb-2"
+                  id="num2"
+                  placeholder="Enter second number"
+                />
+                <button class="btn btn-light" onclick="calculateSum()">
+                  Add Numbers
+                </button>
+              </div>
+              <div class="col-md-6">
+                <h6>Result:</h6>
+                <div id="result" style="font-size: 24px; font-weight: bold">
+                  0
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-4">
+            <h5>Color Picker Demo:</h5>
+            <input
+              type="color"
+              id="colorPicker"
+              onchange="changeBoxColor()"
+              class="form-control"
+              style="width: 100px; height: 50px"
+            />
+            <div
+              id="colorDemo"
+              style="
+                width: 200px;
+                height: 100px;
+                background: #3498db;
+                margin-top: 10px;
+                border-radius: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                font-weight: bold;
+              "
+            >
+              Choose a coour
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section text-center">
+        <h3>Portfolio Summary</h3>
+        <p>This portfolio demonstrates my understanding of:</p>
+        <div class="row">
+          <div class="col-md-3">
+            <h5>HTML</h5>
+            <p>Structure & Content</p>
+          </div>
+          <div class="col-md-3">
+            <h5>CSS</h5>
+            <p>Styling & Design</p>
+          </div>
+          <div class="col-md-3">
+            <h5>Bootstrap</h5>
+            <p>Responsive Framework</p>
+          </div>
+          <div class="col-md-3">
+            <h5>JavaScript</h5>
+            <p>Interactivity & Logic</p>
+          </div>
+        </div>
+        <p class="mt-4">
+          <strong>Created by:</strong> Nishan Thapa - BSc (Hons) IT Student
+        </p>
+        <p>
+          <em>All codes and explanations are included above</em>
+        </p>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
