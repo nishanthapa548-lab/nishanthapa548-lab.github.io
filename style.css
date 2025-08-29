@@ -1,0 +1,102 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background: #1a1a1a;
+    min-height: 100vh;
+}
+
+.portfolio-container {
+    background: #2c2c2c;
+    color: white;
+    margin: 20px auto;
+    max-width: 1200px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    overflow: hidden;
+}
+
+.header {
+    background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.section {
+    padding: 40px;
+    border-bottom: 2px solid #444444;
+}
+
+.section:last-child {
+    border-bottom: none;
+}
+
+.code-example {
+    background: #1e1e1e;
+    color: #f8f9fa;
+    border-left: 4px solid #dc3545;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    font-family: 'Courier New', monospace;
+    overflow-x: auto;
+}
+
+.demo-box {
+    border: 2px solid #dc3545;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+    background: #1e1e1e;
+    color: white;
+}
+
+.interactive-button {
+    background: linear-gradient(45deg, #ff6b6b, #feca57);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    margin: 10px;
+}
+
+.interactive-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.color-changer {
+    padding: 20px;
+    border-radius: 10px;
+    background: #3a3a3a;
+    color: white;
+    text-align: center;
+    margin: 20px 0;
+    transition: all 0.5s ease;
+}
+
+.color-changer:hover {
+    background: linear-gradient(45deg, #ff6b6b, #feca57) !important;
+    color: white;
+    transform: scale(1.05);
+}
+
+.form-demo {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    padding: 30px;
+    border-radius: 15px;
+    margin: 20px 0;
+}
+
+.explanation {
+    background: #1e1e1e;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 15px 0;
+    border-left: 4px solid #1e1e1e;
+}
